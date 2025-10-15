@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   build-publish:
-    runs-on: ubuntu:latest
+    runs-on: ubuntu:eoan
     steps:
       - uses: actions/checkout@v4
 
